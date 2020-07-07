@@ -12,8 +12,8 @@ browser.get("http://facebook.com")
 username = browser.find_element_by_id("email")
 password = browser.find_element_by_id("pass")
 
-username.send_keys("haoxray")
-password.send_keys("Styleofme!@#")
+username.send_keys("yourusername") # replace by your fb username
+password.send_keys("yourpassword") # replace by your fb password
 password.send_keys(Keys.ENTER)
 
 # 3. Sleep application for 5 seconds
